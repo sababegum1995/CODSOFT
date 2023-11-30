@@ -7,7 +7,7 @@ body{
 .heading{
     width: 100vw;
     height: 700px;
-    background-image:url(./Pictures/bg-01.jpg);
+    background-image:url(bg-01.jpg);
     background-size: cover;
     position: relative;
     margin-top: -80px;
@@ -18,7 +18,7 @@ body{
 
     .heading{
         width: 400px;
-        background-image:url(./Pictures/bg-01.jpg);
+        background-image:url(bg-01.jpg);
        
     }
 }
