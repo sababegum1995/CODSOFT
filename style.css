@@ -1,0 +1,586 @@
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Header-section */
+.heading{
+    width: 100vw;
+    height: 700px;
+    background-image:url(./Pictures/bg-01.jpg);
+    background-size: cover;
+    position: relative;
+    margin-top: -80px;
+    z-index: 1;
+   
+}
+@media (max-width: 786px) and (min-width: 586px){
+
+    .heading{
+        width: 400px;
+        background-image:url(./Pictures/bg-01.jpg);
+       
+    }
+}
+
+.header{
+    width: 100vw;
+    height: 80px;
+    background-color: #000;
+    position: fixed;
+    top:0;
+    display: flex;
+    margin-left: -10px;
+    z-index: 2;
+}
+@media (max-width: 786px) and (min-width: 586px){
+.header{
+    width: 400px;
+}
+}
+.logo{
+    position: absolute;
+    top:10px;
+    left:80px;
+}  
+.navigation{
+    position: absolute;
+    top:20px;
+    margin-left: 680px;
+    display: flex;
+    gap:20px;
+} 
+
+
+p{
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bolder;
+}
+p:hover{
+    color: #ff4d00;
+}
+
+.title{
+    color: white;
+    position: absolute;
+    top:30px;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+.title h1{
+    font-weight: bolder;
+    font-size: 65px;
+    margin-top: 120px;
+}
+.title h4{
+    margin-top: -40px;
+    width: 420px;
+}
+@media (max-width: 786px) and (min-width: 586px){
+    .title h1{
+        width: 400px;
+    }
+   
+    .title h4{
+        width: 400px;
+    }
+} 
+.btn{
+    border: 1px solid #ff4d00;
+    width: 180px;
+    height: 50px;
+    border-radius:22px;
+    background-color: #ff4d00;
+    margin-left: 80px;
+    margin-top: 30px;
+
+}
+.btn p{
+    color: white;
+    padding: 0px 0px 0px 40px;
+    margin-top: 10px;
+}
+/* section-two */
+.section-two{
+width: 100vw;
+background-color: #1a1c20;
+height: 2400px;
+position: relative;
+}
+@media (max-width: 786px) and (min-width: 586px){
+    .section-two{
+        width: 400px;
+    }
+}
+
+.left-section{
+    color: #e5e5e5;
+    margin-top: -30px;
+    width: 800px;
+}
+@media (max-width: 786px) and (min-width: 586px){
+    .left-section{
+        width: 400px;
+    }
+} 
+
+h2{
+position: absolute;
+top:80px;
+left: 80px;
+font-size: 45px;
+color: #e5e5e5;
+}
+.left-section h5{
+    font-size: 18px;
+    font-weight: 300px;
+    font-weight: lighter;
+    position: absolute;
+    top:180px;
+    left: 80px;
+    width: 600px;
+}
+.left-section h6{
+    font-size: 18px;
+    font-weight: 300px;
+    font-weight: lighter;
+    position: absolute;
+    top:280px;
+    left: 80px;
+    width: 600px;
+}
+@media (max-width: 786px) and (min-width: 586px){
+    .left-section h5{
+        width: 400px;
+    }
+}
+@media (max-width: 786px) and (min-width: 586px){
+    .left-section h6{
+        width: 400px;
+    }
+}
+.right-section{
+    border: 0.065px solid rgb(24, 23, 23);
+    background-color: #1a1c20;
+    width: 420px;
+    height: 350px;
+    position: absolute;
+    top:200px;
+    left: 850px;
+    box-shadow: 2px 2px 2px 2px black inset;
+    border-radius: 18px;
+}
+.input input{
+    border-radius: 22px;
+    height: 50px;
+    width: 320px;
+    background-color: #1a1c20;
+    margin-left: 50px;
+    margin-top: 30px;
+    color: white;
+    border: 1px solid #e5e5e5;
+    padding: 2px;
+}
+.btn1{
+    border: 1px solid #ff4d00;
+    width: 180px;
+    height: 50px;
+    border-radius:22px;
+    background-color: #ff4d00;
+    margin-left: 120px;
+    margin-top: 30px;
+
+}
+.btn1 p{
+    color: white;
+    padding: 0px 0px 0px 40px;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+.class-details{
+    position: absolute;
+    top: 240px;
+    margin-left: -420px;
+    width: 400px;
+}
+@media (max-width: 786px) and (min-width: 586px){
+    .class-details{
+        width: 400px;
+    }
+}   
+.class-details h2{
+    color: #e5e5e5;
+}
+@media (max-width: 786px) and (min-width: 586px){
+    .class-details h2{
+        width: 200px;
+        margin-left: -380px;
+    }
+}  
+.class-details p{
+    text-align: center;
+    margin-top: 210px;
+    width: 700px;
+    margin-left: -140px;
+    font-weight: 300;
+}
+@media (max-width: 786px) and (min-width: 586px){
+    .class-details p{
+        width: 400px;
+        margin-left: -380px;
+    }
+}
+.cards{
+    display: flex;
+}
+.card1{
+    border: 0.065px solid rgb(24, 23, 23);
+    background-color: #1a1c20;
+    width: 350px;
+    height: 380px;
+    position: absolute;
+    top:780px;
+    left: 80px;
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius: 18px;
+}
+@media (max-width: 786px) and (min-width: 586px){
+    .card1{
+        width: 400px;
+    }
+}
+.card1 img{
+    width: 350px;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    height: 210px;
+    transition: linear;
+}
+.card1 h3{
+    color: white;
+    margin-left: 20px;
+}
+.card1 p{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 20px;
+}
+.card2{
+    border: 0.065px solid rgb(24, 23, 23);
+    background-color: #1a1c20;
+    width: 350px;
+    height: 380px;
+    position: absolute;
+    top:780px;
+    left: 480px;
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius: 18px;
+}
+@media (max-width: 786px) and (min-width: 586px){
+    .card2{
+        width: 400px;
+    }
+}
+.card2 img{
+    width: 350px;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    height: 210px;
+    transition: linear;
+}
+.card2 h3{
+    color: white;
+    margin-left: 20px;
+}
+.card2 p{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 20px;
+}
+.card3{
+    border: 0.065px solid rgb(24, 23, 23);
+    background-color: #1a1c20;
+    width: 350px;
+    height: 380px;
+    position: absolute;
+    top:780px;
+    left: 880px;
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius: 18px;
+}
+@media (max-width: 786px) and (min-width: 586px){
+    .card3{
+        width: 400px;
+    }
+}
+.card3 img{
+    width: 350px;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    height: 210px;
+    transition: linear;
+}
+.card3 h3{
+    color: white;
+    margin-left: 20px;
+}
+.card3 p{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 20px;
+}
+.card4{
+    border: 0.065px solid rgb(24, 23, 23);
+    background-color: #1a1c20;
+    width: 350px;
+    height: 380px;
+    position: absolute;
+    top:1200px;
+    left: 80px;
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius: 18px;
+}
+@media (max-width: 786px) and (min-width: 586px){
+    .card4{
+        width: 400px;
+    }
+}
+.card4 img{
+    width: 350px;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    height: 210px;
+    transition: linear;
+}
+.card4 h3{
+    color: white;
+    margin-left: 20px;
+}
+.card4 p{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 20px;
+}
+.card5{
+    border: 0.065px solid rgb(24, 23, 23);
+    background-color: #1a1c20;
+    width: 350px;
+    height: 380px;
+    position: absolute;
+    top:1200px;
+    left: 480px;
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius: 18px;
+}
+@media (max-width: 786px) and (min-width: 586px){
+    .card5{
+        width: 400px;
+    }
+}
+.card5 img{
+    width: 350px;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    height: 210px;
+    transition: linear;
+}
+.card5 h3{
+    color: white;
+    margin-left: 20px;
+}
+.card5 p{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 20px;
+}
+.card6{
+    border: 0.065px solid rgb(24, 23, 23);
+    background-color: #1a1c20;
+    width: 350px;
+    height: 380px;
+    position: absolute;
+    top:1200px;
+    left: 880px;
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius: 18px;
+}
+@media (max-width: 786px) and (min-width: 586px){
+    .card6{
+        width: 400px;
+    }
+}
+.card6 img{
+    width: 350px;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    height: 210px;
+    transition: linear;
+}
+.card6 h3{
+    color: white;
+    margin-left: 20px;
+}
+.card6 p{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 20px;
+}
+.class-details1{
+    position: absolute;
+    top: 1540px;
+    margin-left: 480px;
+    width: 400px;
+}
+@media (max-width: 786px) and (min-width: 586px){
+    .class-details1{
+        width: 400px;
+    }
+}   
+.class-details1 h2{
+    color: #e5e5e5;
+    width: 600px;
+    margin-left: -140px;
+}
+@media (max-width: 786px) and (min-width: 586px){
+    .class-details1 h2{
+        width: 600px;
+        margin-left: -380px;
+    }
+}  
+.class-details1 p{
+    text-align: center;
+    margin-top: 210px;
+    width: 700px;
+    margin-left: -140px;
+    font-weight: 300;
+}
+@media (max-width: 786px) and (min-width: 586px){
+    .class-details1 p{
+        width: 400px;
+        margin-left: -380px;
+    }
+}
+.card-new1{
+    border: 0.065px solid rgb(24, 23, 23);
+    background-color: #1a1c20;
+    width: 350px;
+    height: 480px;
+    position: absolute;
+    top:1850px;
+    left: 80px;
+    box-shadow: 2px 2px 2px 2px rgb(56, 56, 56) inset;
+    border-radius: 18px;
+}
+.card-new1 h3{
+    color: #ff4d00;
+    margin-left: 40px;
+}
+.card-new1 h1{
+    color: white;
+    margin-left: 40px;
+}
+.card-new1 p{
+    color:antiquewhite;
+    margin-left: 40px;
+}
+.btn-new1{
+    border: 1px solid #ff4d00;
+    width: 180px;
+    height: 50px;
+    border-radius:22px;
+    background-color: #ff4d00;
+    margin-left: 40px;
+    margin-top: 160px;
+
+}
+.btn-new1 p{
+    color: white;
+    padding: 0px 0px 0px 40px;
+    margin-top: 10px;
+    margin-left: 18px;
+}
+.btn-new2{
+    border: 1px solid #ff4d00;
+    width: 180px;
+    height: 50px;
+    border-radius:22px;
+    background-color: #ff4d00;
+    margin-left: 40px;
+    margin-top: 80px;
+
+}
+.btn-new2 p{
+    color: white;
+    padding: 0px 0px 0px 40px;
+    margin-top: 10px;
+}
+.btn-new3{
+    border: 1px solid #ff4d00;
+    width: 180px;
+    height: 50px;
+    border-radius:22px;
+    background-color: #ff4d00;
+    margin-left: 40px;
+    margin-top: 40px;
+
+}
+.btn-new3 p{
+    color: white;
+    padding: 0px 0px 0px 40px;
+    margin-top: 10px;
+}
+.card-new2{
+    border: 0.065px solid rgb(24, 23, 23);
+    background-color: #1a1c20;
+    width: 350px;
+    height: 480px;
+    position: absolute;
+    top:1850px;
+    left: 500px;
+    box-shadow: 2px 2px 2px 2px rgb(56, 56, 56) inset;
+    border-radius: 18px;
+}
+.card-new2 h3{
+    color: #ff4d00;
+    margin-left: 40px;
+}
+.card-new2 h1{
+    color: white;
+    margin-left: 40px;
+}
+.card-new2 p{
+    color:antiquewhite;
+    margin-left: 40px;
+}
+.card-new3{
+    border: 0.065px solid rgb(24, 23, 23);
+    background-color: #1a1c20;
+    width: 350px;
+    height: 480px;
+    position: absolute;
+    top:1850px;
+    left: 920px;
+    box-shadow: 2px 2px 2px 2px rgb(56, 56, 56) inset;
+    border-radius: 18px;
+}
+.card-new3 h3{
+    color: #ff4d00;
+    margin-left: 40px;
+}
+.card-new3 h1{
+    color: white;
+    margin-left: 40px;
+}
+.card-new3 p{
+    color:antiquewhite;
+    margin-left: 40px;
+}
