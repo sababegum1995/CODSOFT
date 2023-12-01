@@ -16,7 +16,7 @@ body{
 }
 @media(max-width:786px)and(min-width:586px){
     .heading{
-        width:1200px;
+        width:1700px;
     }
 }
 .header{
@@ -31,7 +31,7 @@ body{
 }
 @media(max-width:786px)and(min-width:586px){
     .header{
-        with:1200px;
+        with:1700px;
     }
 }
 .logo{
@@ -93,14 +93,14 @@ p:hover{
 }
 /* section-two */
 .section-two{
-width: 1700px;
+width: 100vw;
 background-color: #1a1c20;
 height: 2400px;
 position: relative;
 }
 @media(max-width:786px)and(min-width:586px){
     .section-two{
-        with:1200px;
+        with:1700px;
     }
 }
 .left-section{
