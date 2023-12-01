@@ -17,7 +17,7 @@ body{
 @-ms-viewport{
   width: device-width;
 }
-@media(max-width:786px)and(min-width:586px){
+@media(max-width:586px)and(min-width:786px){
     .heading{
         width:device-width;
         width:2100px;
