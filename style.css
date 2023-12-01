@@ -16,7 +16,7 @@ body{
 }
 @media(max-width:786px)and(min-width:586px){
     .heading{
-        width:1700px;
+        width:100vw;
     }
 }
 .header{
@@ -31,7 +31,7 @@ body{
 }
 @media(max-width:786px)and(min-width:586px){
     .header{
-        with:1700px;
+        width:100vw;
     }
 }
 .logo{
@@ -100,7 +100,7 @@ position: relative;
 }
 @media(max-width:786px)and(min-width:586px){
     .section-two{
-        with:1700px;
+        width:100vw;
     }
 }
 .left-section{
