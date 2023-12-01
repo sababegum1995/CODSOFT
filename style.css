@@ -5,7 +5,7 @@ body{
 
 /* Header-section */
 .heading{
-    width: 1700px;
+    width: 100vw;
     height: 700px;
     background-image:url("bg-01.jpg");
     background-size: cover;
@@ -14,9 +14,13 @@ body{
     z-index: 1;
    
 }
-
+@media(max-width:786px)and(min-width:586px){
+    .heading{
+        width:1200px;
+    }
+}
 .header{
-    width: 1700px;
+    width: 100vw;
     height: 80px;
     background-color: #000;
     position: fixed;
@@ -25,7 +29,11 @@ body{
     margin-left: -10px;
     z-index: 2;
 }
-
+@media(max-width:786px)and(min-width:586px){
+    .header{
+        with:1200px;
+    }
+}
 .logo{
     position: absolute;
     top:10px;
@@ -90,8 +98,11 @@ background-color: #1a1c20;
 height: 2400px;
 position: relative;
 }
-
-
+@media(max-width:786px)and(min-width:586px){
+    .section-two{
+        with:1200px;
+    }
+}
 .left-section{
     color: #e5e5e5;
     margin-top: -30px;
