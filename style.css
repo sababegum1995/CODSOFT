@@ -14,6 +14,9 @@ body{
     z-index: 1;
    
 }
+@-ms-viewport{
+  width: device-width;
+}
 @media(max-width:786px)and(min-width:586px){
     .heading{
         width:device-width;
