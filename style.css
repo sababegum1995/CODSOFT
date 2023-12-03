@@ -37,7 +37,12 @@ body{
     margin-left: -10px;
     z-index: 2;
 }
-@media screen and (min-width:600px){
+@media (max-width:786px){
+    .header{
+        width:100vw;
+    }
+}
+@media (min-width:586px){
     .header{
         width:100%;
     }
@@ -106,7 +111,12 @@ background-color: #1a1c20;
 height: 2400px;
 position: relative;
 }
-@media screen and (min-width:600px){
+@media (max-width:786px){
+    .section-two{
+        width:100vw;
+    }
+}
+@media (min-width:586px){
     .section-two{
         width:100%;
     }
