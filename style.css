@@ -17,10 +17,9 @@ body{
 @-ms-viewport{
   width: device-width;
 }
-@media screen and (max-width:600px){
+@media screen and (min-width:600px){
     .heading{
-        width:device-width;
-        width:2100px;
+        width:100%;
     }
 }
 .header{
@@ -33,10 +32,9 @@ body{
     margin-left: -10px;
     z-index: 2;
 }
-@media screen and (max-width:600px){
+@media screen and (min-width:600px){
     .header{
-        width:device-width;
-        width:2100px;
+        width:100%;
     }
 }
 .logo{
@@ -103,10 +101,9 @@ background-color: #1a1c20;
 height: 2400px;
 position: relative;
 }
-@media screen and (max-width:600px){
+@media screen and (min-width:600px){
     .section-two{
-        width:device-width;
-        width:2100px;
+        width:100%;
     }
 }
 .left-section{
