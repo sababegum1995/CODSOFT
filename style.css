@@ -114,7 +114,7 @@ p:hover{
 width: 100vw;
 background-color: #1a1c20;
 height: 2400px;
-position: fixed;
+position: relative;
 margin-left: -10px;
 }
 @-ms-viewport{
