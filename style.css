@@ -17,7 +17,12 @@ body{
 @-ms-viewport{
   width: device-width;
 }
-@media screen and (min-width:600px){
+@media (max-width:786px){
+    .heading{
+        width:100vw;
+    }
+}
+@media (min-width:586px){
     .heading{
         width:100%;
     }
