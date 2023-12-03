@@ -11,7 +11,7 @@ body{
     background-size: cover;
     position: fixed;
     top:-80px;
-    position: relative;
+    margin-left: -10px;
     margin-top: -80px;
     z-index: 1;
    
@@ -114,7 +114,8 @@ p:hover{
 width: 100vw;
 background-color: #1a1c20;
 height: 2400px;
-position: relative;
+position: fixed;
+margin-left: -10px;
 }
 @-ms-viewport{
   width: device-width;
