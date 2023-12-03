@@ -37,6 +37,9 @@ body{
     margin-left: -10px;
     z-index: 2;
 }
+@-ms-viewport{
+  width: device-width;
+}
 @media (max-width:786px){
     .header{
         width:100vw;
@@ -110,6 +113,9 @@ width: 100vw;
 background-color: #1a1c20;
 height: 2400px;
 position: relative;
+}
+@-ms-viewport{
+  width: device-width;
 }
 @media (max-width:786px){
     .section-two{
