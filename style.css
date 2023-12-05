@@ -15,14 +15,21 @@ body{
     
    
 }
-@media screen and (max-width: 575px){
+@media (min-width: 786px){
 
     .heading{
-        width: 3200px;
-        background-image:url("bg-01.jpg");
+        width: 100%;
        
     }
 }
+
+@media (max-width: 586px) {
+    .heading{
+        width: 1200px;
+       
+    }
+  }
+
 
 .header{
     width: 100vw;
@@ -35,11 +42,15 @@ body{
     z-index: 2;
 }
 
-@media screen and (max-width: 575px){
-
+@media (min-width: 786px){
+.header{
+    width: 100%;
+}
+}
+@media (max-width: 586px) {
     .header{
         width: 1200px;
-    }
+    }  
 }
 
 .logo{
