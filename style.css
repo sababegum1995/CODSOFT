@@ -15,10 +15,10 @@ body{
     
    
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 575px){
 
     .heading{
-        width: 1200px;
+        width: 3200px;
         background-image:url("bg-01.jpg");
        
     }
@@ -33,6 +33,13 @@ body{
     display: flex;
     margin-left: -10px;
     z-index: 2;
+}
+
+@media screen and (max-width: 575px){
+
+    .header{
+        width: 1200px;
+    }
 }
 
 .logo{
