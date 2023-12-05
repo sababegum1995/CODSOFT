@@ -10,6 +10,7 @@ body{
     background-image:url("bg-01.jpg");
     background-size: cover;
     position: relative;
+    position: fixed;
     margin-left: -10px;
     margin-top: -80px;
     z-index: 1;
