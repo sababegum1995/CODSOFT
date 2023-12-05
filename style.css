@@ -42,14 +42,17 @@ body{
     z-index: 2;
 }
 
-@media (min-width: 786px){
-.header{
-    width: 100%;
-}
-}
+@media (max-width: 986px) {
+    .header{
+        width: 1350px;
+        margin-left: -10px;
+       
+    }
+  }
 @media (max-width: 586px) {
     .header{
-        width: 1200px;
+        width: 1050px;
+        margin-left: -10px;
     }  
 }
 
