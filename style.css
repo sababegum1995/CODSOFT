@@ -23,7 +23,7 @@ body{
     }
 }
 
-@media (max-width: 586px) {
+@media (max-width: 986px) {
     .heading{
         width: 1200px;
        
