@@ -31,7 +31,7 @@ body{
   }
 @media screen and (max-width: 767px) {
     .heading{
-    width: 1500px;
+    width: 2100px;
     overflow-x:hidden 
     }
 }
