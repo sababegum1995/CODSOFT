@@ -126,17 +126,30 @@ p:hover{
 }
 /* section-two */
 .section-two{
-width: 100vw;
+width: 1200px;
 background-color: #1a1c20;
 height: 2400px;
 position: relative;
 }
-@media (max-width: 786px) and (min-width: 586px){
-    .section-two{
-        width: 400px;
+@media (min-width: 786px){
+
+    .heading{
+        width: 100%;
+       
     }
 }
 
+@media (max-width: 986px) {
+    .heading{
+        width: 1500px;
+       
+    }
+  }
+@media (max-width: 586px) {
+    .heading{
+        width: 1200px;
+    }  
+}
 .left-section{
     color: #e5e5e5;
     margin-top: -30px;
