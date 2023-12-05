@@ -10,7 +10,7 @@ body{
     background-image:url("bg-01.jpg");
     background-size: cover;
     position: relative;
-    margin-top: -120px;
+    margin-top: -10px;
     z-index: 1;
     
    
@@ -29,6 +29,12 @@ body{
        
     }
   }
+@media (max-width: 586px) {
+    .heading{
+        width: 1200px;
+    }  
+}
+
 
 
 .header{
