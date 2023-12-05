@@ -5,7 +5,7 @@ body{
 
 /* Header-section */
 .heading{
-    width: 1400px;
+    width: 100vw;
     height: 700px;
     background-image:url("bg-01.jpg");
     background-size: cover;
@@ -20,7 +20,14 @@ body{
   /* Header-section */
    .heading{
     width: 100vw;
-    overflow-x:hidden;
+   }
+ }
+
+ @media screen and (max-width: 767px) {
+  /* Header-section */
+   .heading{
+    width: 1400px;
+    
    }
  }
 
