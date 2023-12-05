@@ -25,13 +25,13 @@ body{
 
 @media (max-width: 986px) {
     .heading{
-        width: 1800px;
+        width: 1500px;
        
     }
   }
 @media (max-width: 586px) {
     .heading{
-        width: 1800px;
+        width: 1500px;
     }  
 }
 
