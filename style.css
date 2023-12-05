@@ -10,7 +10,6 @@ body{
     background-image:url("bg-01.jpg");
     background-size: cover;
     position: relative;
-    margin-top: -40px;
     z-index: 1;
     
    
@@ -130,7 +129,6 @@ width: 100vw;
 background-color: #1a1c20;
 height: 2400px;
 position: relative;
-margin-left:-40px;
 }
 @media (min-width: 786px){
 
