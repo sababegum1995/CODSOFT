@@ -11,20 +11,19 @@ body{
     background-size: cover;
     position: relative;
     z-index: 1;
-    margin-left:-40px;
     
    
 }
 
 @media (max-width: 986px) {
     .heading{
-        width: 1500px;
+        width: 1600px;
        
     }
   }
 @media (max-width: 586px) {
     .heading{
-        width: 1200px;
+        width: 1300px;
     }  
 }
 
