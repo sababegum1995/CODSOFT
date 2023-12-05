@@ -5,7 +5,7 @@ body{
 
 /* Header-section */
 .heading{
-    width: 1200px;
+    width: 100%;
     height: 700px;
     background-image:url("bg-01.jpg");
     background-size: cover;
@@ -126,7 +126,7 @@ p:hover{
 }
 /* section-two */
 .section-two{
-width: 1200px;
+width: 100vw;
 background-color: #1a1c20;
 height: 2400px;
 position: relative;
