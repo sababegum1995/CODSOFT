@@ -18,7 +18,7 @@ body{
 @media screen and (min-width: 768px) {
   /* Header-section */
 .heading{
-    width: 80%;
+    width: 100vw;
     height: 700px;
     background-image:url("bg-01.jpg");
     background-size: cover;
@@ -31,7 +31,8 @@ body{
   }
 @media screen and (max-width: 767px) {
     .heading{
-    width: 90%;
+    width: 1500px;
+    overflow-x:hidden 
     }
 }
 .header{
