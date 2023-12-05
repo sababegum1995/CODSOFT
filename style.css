@@ -10,7 +10,7 @@ body{
     background-image:url("bg-01.jpg");
     background-size: cover;
     position: relative;
-    margin-top: -20px;
+    margin-top: -40px;
     z-index: 1;
     
    
@@ -130,23 +130,24 @@ width: 1200px;
 background-color: #1a1c20;
 height: 2400px;
 position: relative;
+margin-left:-40px;
 }
 @media (min-width: 786px){
 
-    .heading{
+    .section-two{
         width: 100%;
        
     }
 }
 
 @media (max-width: 986px) {
-    .heading{
+    .section-two{
         width: 1500px;
        
     }
   }
 @media (max-width: 586px) {
-    .heading{
+    .section-two{
         width: 1200px;
     }  
 }
