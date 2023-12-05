@@ -16,27 +16,7 @@ body{
     z-index: 1;
    
 }
-/* @media screen and (min-width: 768px) {
-  /* Header-section */
-.heading{
-    width: 100vw;
-    height: 700px;
-    background-image:url("bg-01.jpg");
-    background-size: cover;
-    position: relative;
-    margin-left: -10px;
-    margin-top: -80px;
-    z-index: 1;
-   
-} 
-  }
-@media screen and (max-width: 767px) {
-    .heading{
-    width: 100vw;
-    flex-wrap: wrap;
-/*     overflow-x:hidden  */
-    }
-} */
+
 .header{
     width: 100vw;
     height: 80px;
