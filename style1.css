@@ -1,24 +1,12 @@
 body{
-  
+    height: 500px;
+    width: 100vw;
 }
 /* section1 */
 video{
     min-width: 100vw;
     position: relative;
   }
-@media (max-width: 986px) {
-    video{
-        width: 950px;
-        margin-left: -10px;
-       
-    }
-  }
-@media (max-width: 586px) {
-    video{
-        width: 750px;
-        margin-left: -10px;
-    }  
-}
 a{
     text-decoration: none;
     color: black;
@@ -88,19 +76,6 @@ a{
    width: 100vw;
    display: flex;
   }
-@media (max-width: 986px) {
-    .section2{
-        width: 950px;
-        margin-left: -10px;
-       
-    }
-  }
-@media (max-width: 586px) {
-    .section2{
-        width: 750px;
-        margin-left: -10px;
-    }  
-}
   .section2 img{
     border: 1px solid white;
     border-radius: 14px;
@@ -252,19 +227,6 @@ a{
    width: 100vw;
    display: flex;
   }
-@media (max-width: 986px) {
-    .skills{
-        width: 950px;
-        margin-left: -10px;
-       
-    }
-  }
-@media (max-width: 586px) {
-    .skills{
-        width: 750px;
-        margin-left: -10px;
-    }  
-}
   .skills h1{
     margin-left: 650px;
   }
@@ -315,7 +277,7 @@ a{
   .project-video{
     width: 50px;
     height: 310px;
-    margin-left: 120px;
+    margin-left: -210px;
     margin-top: 5px;
   }
   
