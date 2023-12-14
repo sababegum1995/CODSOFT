@@ -9,14 +9,14 @@ video{
   }
 @media (max-width: 986px) {
     video{
-        width: 1550px;
+        width: 1750px;
         margin-left: -10px;
        
     }
   }
 @media (max-width: 586px) {
     video{
-        width: 1250px;
+        width: 1550px;
         margin-left: -10px;
     }  
 }
