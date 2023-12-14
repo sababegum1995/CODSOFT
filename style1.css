@@ -7,6 +7,19 @@ video{
     min-width: 100vw;
     position: relative;
   }
+@media (max-width: 986px) {
+    video{
+        width: 1350px;
+        margin-left: -10px;
+       
+    }
+  }
+@media (max-width: 586px) {
+    .video{
+        width: 1050px;
+        margin-left: -10px;
+    }  
+}
 a{
     text-decoration: none;
     color: black;
@@ -76,6 +89,19 @@ a{
    width: 100vw;
    display: flex;
   }
+@media (max-width: 986px) {
+    .section2{
+        width: 1350px;
+        margin-left: -10px;
+       
+    }
+  }
+@media (max-width: 586px) {
+    .section2{
+        width: 1050px;
+        margin-left: -10px;
+    }  
+}
   .section2 img{
     border: 1px solid white;
     border-radius: 14px;
@@ -227,6 +253,19 @@ a{
    width: 100vw;
    display: flex;
   }
+@media (max-width: 986px) {
+    .skills{
+        width: 1350px;
+        margin-left: -10px;
+       
+    }
+  }
+@media (max-width: 586px) {
+    .skills{
+        width: 1050px;
+        margin-left: -10px;
+    }  
+}
   .skills h1{
     margin-left: 650px;
   }
