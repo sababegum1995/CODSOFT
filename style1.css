@@ -1,5 +1,19 @@
 body{
- 
+ height: 500px;
+    width: 100vw;
+}
+@media (max-width: 986px) {
+    body{
+        width: 1350px;
+        margin-left: -10px;
+       
+    }
+  }
+@media (max-width: 586px) {
+    body{
+        width: 1150px;
+        margin-left: -10px;
+    }  
 }
 /* section1 */
 video{
