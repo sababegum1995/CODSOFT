@@ -21,7 +21,7 @@ video{
   }
 @media (max-width: 986px) {
     video{
-        width: 1950px;
+        width: 1850px;
         margin-left: -10px;
        
     }
