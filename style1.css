@@ -4,14 +4,14 @@ body{
 }
 @media (max-width: 986px) {
      body{
-        width: 1350px;
+        width: 1650px;
         margin-left: -10px;
        
     }
   }
 @media (max-width: 586px) {
     body{
-        width: 1050px;
+        width: 1350px;
         margin-left: -10px;
     }  
 }
@@ -22,14 +22,14 @@ video{
   }
 @media (max-width: 986px) {
     video{
-        width: 1350px;
+        width: 1650px;
         margin-left: -10px;
        
     }
   }
 @media (max-width: 586px) {
     video{
-        width: 1050px;
+        width: 1350px;
         margin-left: -10px;
     }  
 }
@@ -104,14 +104,14 @@ a{
   }
 @media (max-width: 986px) {
     .section2{
-        width: 1350px;
+        width: 1650px;
         margin-left: -10px;
        
     }
   }
 @media (max-width: 586px) {
     .section2{
-        width: 1050px;
+        width: 1350px;
         margin-left: -10px;
     }  
 }
@@ -268,14 +268,14 @@ a{
   }
 @media (max-width: 986px) {
     .skills{
-        width: 1350px;
+        width: 1650px;
         margin-left: -10px;
        
     }
   }
 @media (max-width: 586px) {
     .skills{
-        width: 1050px;
+        width: 1350px;
         margin-left: -10px;
     }  
 }
