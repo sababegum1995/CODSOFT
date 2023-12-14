@@ -1,19 +1,6 @@
 body{
   
 }
-@media (max-width: 986px) {
-     body{
-        width: 1650px;
-        margin-left: -10px;
-       
-    }
-  }
-@media (max-width: 586px) {
-    body{
-        width: 1350px;
-        margin-left: -10px;
-    }  
-}
 /* section1 */
 video{
     min-width: 100vw;
@@ -21,14 +8,14 @@ video{
   }
 @media (max-width: 986px) {
     video{
-        width: 1850px;
+        width: 1750px;
         margin-left: -10px;
        
     }
   }
 @media (max-width: 586px) {
     video{
-        width: 1650px;
+        width: 1550px;
         margin-left: -10px;
     }  
 }
