@@ -8,14 +8,14 @@ video{
   }
 @media (max-width: 986px) {
     video{
-        width: 1750px;
+        width: 1550px;
         margin-left: -10px;
        
     }
   }
 @media (max-width: 586px) {
     video{
-        width: 1550px;
+        width: 1350px;
         margin-left: -10px;
     }  
 }
@@ -316,7 +316,7 @@ a{
   .project-video{
     width: 50px;
     height: 310px;
-    margin-left: -150px;
+    margin-left: -80px;
     margin-top: 5px;
   }
   
