@@ -21,14 +21,14 @@ video{
   }
 @media (max-width: 986px) {
     video{
-        width: 1650px;
+        width: 1950px;
         margin-left: -10px;
        
     }
   }
 @media (max-width: 586px) {
     video{
-        width: 1350px;
+        width: 1650px;
         margin-left: -10px;
     }  
 }
