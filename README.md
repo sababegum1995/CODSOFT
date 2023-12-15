@@ -2,11 +2,10 @@
 TASK1-LEVEL1-LANDING PAGE
 Project link  - https://sababegum1995.github.io/CODSOFT/
 
+https://github.com/sababegum1995/CODSOFT/assets/144269174/99982ed3-5abe-4335-9489-8fb54e1d4acf
 
-screenshots -- ![image](https://github.com/sababegum1995/CODSOFT/assets/144269174/54a00c45-9ab1-41f6-9b80-7d12ab4dbac3)
+TASK1-LEVEL2-Portfolio
+Project link  - https://sababegum1995.github.io/CODSOFT/index1.html
 
-![image](https://github.com/sababegum1995/CODSOFT/assets/144269174/377ad027-6d00-4df1-969a-c234c076178f)
+https://github.com/sababegum1995/CODSOFT/assets/144269174/c2354e89-8240-4043-8df3-722b7bf57fd5
 
-
-TASK2-LEVEL2-Portfolio
-Project link  - https://sababegum1995.github.io/CODSOFT/
